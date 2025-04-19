@@ -1,0 +1,28 @@
+
+
+Data Structure =
+===============
+
+is a way organise and Storing the data efficiently .
+
+ADT - Abstract Data Type 
+
+
+nums [2,3,4,5,6,7] 
+read opearation nums[3] =5 ; reading is easy because you give the index value , it directly jump to that value 
+
+searching - you are searching for value not for index , so it is little bit difficult , here suppose you want to search for 5 , but your computer doesnot know about 5, it only knows aboy
+memory address 
+
+inserting - inserting elements in end is easy , because you first find the size of element then add in last , adding in middle is difficult because you can't directly add middle
+what you have do means to move the element is create new block in end , move the second last element to last block then again move every element one by one 
+
+deleting - deleting end is always easy , because it is not affecting array total , deleting paticular element from middle , you can't simple delete ,delete the end block and 
+replace the value 
+
+
+Problem - Searching an element in a sorted array ?
+
+Solution - Linear Search , Binnary Search 
+
+Linear Search -

@@ -1,0 +1,90 @@
+
+Challenges --
+==============
+1 .Changing Requirment : Mid project requirment disrupted  development and impact project timeline 
+2. Collaboration and communication - Coordinating between different teams, especially when some are in different time zones, can be difficult.
+3. Time Management and Deadlines - Balancing multiple tasks and meeting deadlines without sacrificing the quality of work.
+4. Cross-Team Dependencies -Sometimes the backend work relies on the frontend or DevOps teams, and delays from one team can slow down overall progress
+5.  Handling Ambiguities in Requirements - Sometimes, stakeholders may not be clear on what they want, or the requirements are subject to interpretation, leading to confusion and potential rework
+6. Learning Curve and Technology Adaptation - Adapting to new tools, technologies, or frameworks, especially when they are newly introduced to the project
+7.  Quality Assurance and Testing -Rushing development often leads to inadequate testing, increasing the risk of bugs or issues in production
+
+
+1. HANDLING CHALLENGES
+
+Technical Challenges: When faced with technical challenges, like performance bottlenecks or bugs, my first step is to thoroughly analyze the problem. I break down the issue into smaller
+parts and try to isolate the root cause. For instance, if a performance issue arises with a database query, I’ll use logs, monitoring tools, and SQL execution plans to identify which
+part of the query is causing the problem and optimize it by adding indexes or refactoring the query.
+
+I also seek solutions by referring to documentation, using online resources like Stack Overflow, or consulting team members who might have encountered similar problems.
+
+Changing Requirements: In Agile projects, changing requirements are common. When requirements change, I ensure that I thoroughly understand the new scope by engaging with the business
+analysts or project managers. If the change affects other modules, I work with the team to ensure we collectively understand the impact and adjust our development plans accordingly.
+
+Additionally, I prioritize tasks effectively to handle last-minute changes without compromising quality. I maintain a flexible mindset, which helps me adapt quickly.
+
+Tight Deadlines: When faced with tight deadlines, I focus on delivering the most critical functionality first, ensuring that essential features are stable and working. 
+I communicate with the team to split tasks where possible, so we can meet the deadline together. If necessary, I discuss trade-offs with the product owner to focus on delivering
+ core functionality first and defer non-essential features to later sprints
+ 
+2. WORKING WITH TEAMS
+
+Collaboration: I work closely with cross-functional teams such as frontend developers, QA engineers, and business analysts. During development, I make sure to communicate regularly,
+especially when building APIs or backend services that the frontend team relies on. I share API documentation (using tools like Swagger), communicate changes early, 
+and am always available for clarifications.
+
+I also participate in Agile ceremonies like sprint planning, daily stand-ups, and retrospectives. During these meetings, I update the team on my progress, raise any blockers,
+and offer help to others if they need support.
+
+Code Reviews :  I actively participate in code reviews—both giving and receiving feedback. When reviewing code, I focus on improving code quality, security, and performance,
+ while also learning from other team members. I aim to provide constructive feedback by suggesting improvements rather than just pointing out issues. On the receiving end,
+ I embrace feedback from others and make sure to incorporate it, which helps maintain a healthy team dynamic.
+ 
+Knowledge Sharing: I believe in continuous learning and knowledge sharing. Whenever I discover a new tool, library, or technique that improves efficiency,
+ I share it with the team, either through discussions or by organizing knowledge-sharing sessions.
+ 
+3. RESOLVING CONFLICTS
+
+Technical Disagreements: In cases where there is a disagreement over a technical decision (e.g., whether to use a specific design pattern or technology),
+ I approach the conflict by focusing on the facts and the technical merits of each option. I encourage an open discussion where everyone can present their viewpoint,
+ backed by research, data, or past experiences.
+
+Team Conflicts: In situations where there might be a misunderstanding or a communication gap between team members, I promote open communication. I aim to have a direct,
+yet respectful conversation where everyone can voice their concerns. If necessary, I facilitate a discussion where both parties can express their viewpoints and try to
+identify common ground.
+
+DAY TO DAY ACTIVITY 
+
+1. Morning Stand-up/Team Meetings -Coordinate with the frontend developers, QA team, and project managers to align tasks and progress updates.
+2. Backend Feature Development -Writing business logic in Java using Spring Boot.Implementing new REST APIs for session management, customer management, or portfolio management.
+3. Database Work - Use JPA/Hibernate to implement database operations and ensure transactional integrity
+4.Microservices Management -Develop and manage different microservices as part of the architecture. Each microservice might handle sessions, customer profiles, or portfolios independently
+5. Code Reviews and Collaboration -Review pull requests from other developers on the team to ensure quality and adherence to coding standards.
+6. Unit Testing and Bug Fixing - Write unit tests using JUnit5 to ensure that all backend logic is tested thoroughly and behaves as expected.
+7. API Documentation -Use tools like Swagger to document the APIs you've developed, ensuring that they are well-documented for frontend developers or other services to consume.
+8. Refactoring and Technical Debt Management -Refactor code when necessary to improve maintainability, optimize performance, or reduce technical debt.
+9. Logging and Monitoring - Implement logging in critical parts of the application for easier monitoring and debugging. ( Spring Boot Actuator, ELK stack).
+10 Production Deployment Support- Collaborate with the DevOps team for deployments using containerized environments like Docker or Kubernetes
+
+
+
+
+
+
+
+
+
+WaterFall Model - Requirement -> design -> development -> test -> deploy -> maintain 
+
+Agile - Scrum and canban framework , what happen in agile is if BA team finish the task they can move to differnt task 
+
+Jira - it is a tool 
+
+
+cloud config - to maintain configuration properties properly - in azure we have keyVault 
+
+uat - user acceptance test / customer test / client test 
+
+Sprint -> dev ->test ->uat ->prod -> main 
+
+

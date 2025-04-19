@@ -1,0 +1,193 @@
+
+1. What is Angular ?
+ans - Angular is a binding framework , which helps binding view with model , MVVM - Model view view model , Js UI framework, help build single page application by using routing .
+
+2. Angular JS vs Angular ?
+Angular use TypeScript , Angular JS use js (Angular 1)
+Angular is componenet based architecture , Angular is Controller based architecutre
+Angular support mobile , angular js doesn't support
+angular support lazy loading , angular js doesn't support lazy loading
+
+3. What is Directive in angular ?
+Ans - Angular Syntax write inside angular html , Change the behaviour of dom 
+
+4. Types of Directive ?
+Ans - Structural - change the structure of dom , add or remove 
+  ,Attribute - It changes behaviour of element 
+ ,component - Customize user controller 
+ 
+ 5. What is NPM ,and node_module  ?
+ Ans -NPM is a package manager , Node package manager , install any js in your system 
+ node_module - folder where all packages are install .
+ 6 . Importants of package.json?
+ Ans -all the java script framework list down here .
+
+7. Typescript ?
+Ans - it add type in js , superset of js , strongly type ,give nice oop platform 
+
+8. Angular CLI ?
+Ans - helps to create readymade angular project template , npm install @angular/cli , then ng new myapp 
+
+9. Component and module in angular ?
+A building block of UI that consists of a TS class, HTML template, and CSS styles.
+componenet is where you write your binding code , group of component is module 
+ 
+10. Decorator ?
+ans - helps to define what kind of angular class is it , @Component  - angular component class , @Ngmodule- module 
+
+11-  What is template ?
+Ans - HTML view of angular .
+
+12 - Data Binding ?
+ans - data binding is how view and component communicate eachother 
+1. Interpolation - {{}} - Data flows from component to view and we can mix the same with html tags
+2.property binding  -[] - data flows from component to view 
+3.event binding - ()- send event from view to component 
+4. Two way bining =[()] -componenet to view and vice versa 
+
+13. Architecture of angular ?
+1 - Tempalte -> 2.Component -> 3.module ->4.Binding ->5.Directive ->6.Service ->7.DI -
+    HTMLview -> binding -> group of component - how data flow view to componnet - change dom behaviour , common logic - done via DI
+
+14. SPA
+ans -load UI once and don't reload it again and again , then needed ui load on demand 
+
+15- how implement spa ?
+Ans - by angular routing , routing is - define navigation of angular application  3 things needed -collection , router outlet ,roterlink 
+
+16 - Lazy Loading ?
+Ans - On demand loading , loading what is essential and necessary 
+17 - Implement lazy loading in angular ?
+ans - divide your project into modules ,use loadchildren 
+
+18 - Services ?
+Ans -share common logic across angular projects - validation 
+
+19 - What is DI ?
+ans - application design pattern , rather than creating object instances from component , angular inject it via constructor .
+
+20 - How to implement it ?
+ans -providers property which belongs @NgMoudle 
+
+21 - What benifit of DI ?
+ans - decouping ,change in one place you doesn't need to change everywhere 
+
+22- ng server - build angular application inside RAM 
+ng build - builds on the hard disk 
+
+23 - ngOnInit() in Angular
+ngOnInit() is a lifecycle hook in Angular that's part of the OnInit interface. It is called once after the component's constructor and
+ after Angular has initialized all data-bound properties.
+
+24 - How do you call a REST API in Angular?
+You use the HttpClient service from Angular’s @angular/common/http module.
+
+✅ Steps:
+Import HttpClientModule in your AppModule
+
+Inject HttpClient into your service or component
+
+Use http.get(), http.post(), etc. to call the API
+
+25 - What are Pipes in Angular? 
+ans - Pipes are used to format/transform output in templates
+You can use built-in or custom pipes
+Syntax: {{ value | pipeName:args }}
+
+26 - Angular LifeCycle 
+
+Phase	      Hook	                  Purpose
+Creation	constructor()	Class is instantiated, dependency injection happens
+On Init	ngOnInit()	Called once after data-bound properties are initialized
+On Changes	ngOnChanges()	Called when @Input() values change
+Check Changes	ngDoCheck()	Custom change detection
+After Content	ngAfterContentInit()	Called after <ng-content> is projected
+ngAfterContentChecked()	Called every time content is checked
+After View	ngAfterViewInit()	Called after component’s view and child views are initialized
+ngAfterViewChecked()	Called every time view is checked
+Destroy	ngOnDestroy()	Cleanup logic before the component is destroyed
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Core java Basic ---
+
+1- Important thing in java is JVM , and JVM not only work in Java ,also in kotlin ,scala ,ruby 
+2 - Oracle owner of java 
+3- JDK - need is to compile the code 
+4- in java also we can write 1 line code by using jshell -which came in java 9 , in jshell it will give a prompt  
+
+
+new way iterator 
+
+int i=0;
+for(;i<5;)
+{
+sout(i);
+i++;
+}
+
+OOP===
+-------------
+class - to design something , example = suppose you go to factory and said i want keyboard , for that you have to provide them design
+you need to give the class and jvm will give you object 
+
+Every Object Create inside JVM and and every method create inside stack , local variable in stack area 
+Every time you create object using new constructor that object will create inside heap memomry and object has address and that address store inside stack memory
+
+
+In java String is immutable , string declare String s="Sunit"; ,s=101 , String s=s+"pattnaik" , inside the heap memory there is area called scp , and it will print SunitPattnaik
+it will create another string litral and and change the s= 103
+By using String buffer we can make String as mutable 
+
+
+
+Springboot Starter Parent ?
+Ans - Parent of all the depedency ,which need to start the spring project , it contain server configuration 
+Way to secure sprinboot application?
+JWT , Oauth2
+Method level security ?
+- there is some method inside service like suppose we have delete method inside service , we won't allow all can delete it , only admin can delete it ,@PreAuthurization and define role
+@Secured  , with 2 annotation 
+
+Junit Test Case Annotation ?
+- @Mock ,@Mockito,@SpringbootTest,@Test,@MockTest 
+
+Order of Precedent in springboot application?
+
+How can we use profile ?
+- there is several env like - dev ,QA,Prod - for some evoirment use differnt configuration , spring.profiles.active=dev - to active profile  
+
+
+Memory leak in java -
+In java there are many ways can be memory leak , we are creating static variable and also we are opeing connection and not closing it 
+
+Synchronization in Thread Safety 
+- Synchronization do major role in thread safety , multiple thread try to access paticulr method , it redue performance 
+
+Java Class Loader -
+Java class loader program inisde JVM , load class into memomry
+
+Is it Possible to unload class in Java?
+ 
+
+
+ 
